@@ -22,7 +22,7 @@ public class RequestController {
         return new ResponseEntity<>(responseMap, HttpStatus.OK);
     }
 
-    @GetMapping("/health")
+    @GetMapping("/info")
     public ResponseEntity<?> getHealth() {
         Map<String, Object> responseMap = new HashMap<>();
         InetAddress ipAddr = null;
