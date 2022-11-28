@@ -12,6 +12,6 @@ import java.util.Map;
 public class HealthController {
     @GetMapping("/")
     public ResponseEntity<?> getJavaVersion() {
-        return new ResponseEntity<>("Hello from Spring boot application", HttpStatus.OK);
+        return new ResponseEntity<>("Hello! from Spring boot application", HttpStatus.OK);
     }
 }
